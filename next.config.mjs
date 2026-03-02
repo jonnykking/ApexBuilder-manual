@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/ApexBuilder-manual',
+  trailingSlash: true,
   images: {
     unoptimized: true,
     domains: ['images.unsplash.com', 'via.placeholder.com'],

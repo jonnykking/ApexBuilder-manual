@@ -17,7 +17,6 @@ import {
   Quote,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -82,13 +81,13 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <Link href="/contact" className="btn-primary inline-flex items-center gap-2 text-lg">
+          <a href="/contact" className="btn-primary inline-flex items-center gap-2 text-lg">
             Start Your Project
             <ArrowRight className="w-5 h-5" />
-          </Link>
-          <Link href="/projects" className="btn-secondary inline-flex items-center gap-2 text-lg">
+          </a>
+          <a href="/projects" className="btn-secondary inline-flex items-center gap-2 text-lg">
             View Our Work
-          </Link>
+          </a>
         </motion.div>
 
         {/* Scroll Indicator */}
@@ -193,25 +192,25 @@ function ServicesPreview() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
               <p className="text-gray-600 mb-6">{service.description}</p>
-              <Link
+              <a
                 href={service.link}
                 className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 transition-colors"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Link>
+              </a>
             </motion.div>
           ))}
         </div>
 
         <div className="text-center">
-          <Link
+          <a
             href="/services"
             className="btn-secondary inline-flex items-center gap-2"
           >
             View All Services
             <ArrowRight className="w-5 h-5" />
-          </Link>
+          </a>
         </div>
       </div>
     </section>
@@ -292,13 +291,13 @@ function ProjectsPreview() {
         </div>
 
         <div className="text-center">
-          <Link
+          <a
             href="/projects"
             className="btn-primary inline-flex items-center gap-2"
           >
             View All Projects
             <ArrowRight className="w-5 h-5" />
-          </Link>
+          </a>
         </div>
       </div>
     </section>
@@ -443,10 +442,11 @@ function TestimonialsSection() {
               <button
                 key={index}
                 onClick={() => setCurrentTestimonial(index)}
-                className={`w-3 h-3 rounded-full transition-all ${currentTestimonial === index
+                className={`w-3 h-3 rounded-full transition-all ${
+                  currentTestimonial === index
                     ? "bg-primary-600 w-8"
                     : "bg-gray-300 hover:bg-gray-400"
-                  }`}
+                }`}
                 aria-label={`View testimonial ${index + 1}`}
               />
             ))}
@@ -481,13 +481,13 @@ function CTABanner() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
+            <a
               href="/contact"
               className="bg-white text-primary-700 font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl inline-flex items-center gap-2 text-lg"
             >
               Get Free Quote
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             <div className="flex items-center gap-4 text-white">
               <a href="tel:+61123456789" className="flex items-center gap-2 hover:text-secondary-300 transition-colors">
                 <Phone className="w-5 h-5" />

@@ -22,9 +22,9 @@
       "year_completed": 2024,
       "featured": true,
       "images": [
-        "/images/projects/brighton-1.jpg",
-        "/images/projects/brighton-2.jpg",
-        "/images/projects/brighton-3.jpg"
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop&q=60"
       ]
     },
     {
@@ -49,9 +49,9 @@
       "year_completed": 2023,
       "featured": true,
       "images": [
-        "/images/projects/mosman-1.jpg",
-        "/images/projects/mosman-2.jpg",
-        "/images/projects/mosman-3.jpg"
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&auto=format&fit=crop&q=60"
       ]
     },
     {
@@ -76,9 +76,9 @@
       "year_completed": 2024,
       "featured": true,
       "images": [
-        "/images/projects/paddington-1.jpg",
-        "/images/projects/paddington-2.jpg",
-        "/images/projects/paddington-3.jpg"
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&auto=format&fit=crop&q=60"
       ]
     },
     {
@@ -103,9 +103,9 @@
       "year_completed": 2024,
       "featured": false,
       "images": [
-        "/images/projects/noosa-1.jpg",
-        "/images/projects/noosa-2.jpg",
-        "/images/projects/noosa-3.jpg"
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop&q=60"
       ]
     },
     {
@@ -130,9 +130,9 @@
       "year_completed": 2023,
       "featured": false,
       "images": [
-        "/images/projects/canberra-1.jpg",
-        "/images/projects/canberra-2.jpg",
-        "/images/projects/canberra-3.jpg"
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1493932484895-752d1471eab5?w=800&auto=format&fit=crop&q=60"
       ]
     },
     {
@@ -157,9 +157,9 @@
       "year_completed": 2024,
       "featured": false,
       "images": [
-        "/images/projects/adelaide-1.jpg",
-        "/images/projects/adelaide-2.jpg",
-        "/images/projects/adelaide-3.jpg"
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1493932484895-752d1471eab5?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800&auto=format&fit=crop&q=60"
       ]
     },
     {
@@ -184,9 +184,9 @@
       "year_completed": 2023,
       "featured": false,
       "images": [
-        "/images/projects/perth-1.jpg",
-        "/images/projects/perth-2.jpg",
-        "/images/projects/perth-3.jpg"
+        "https://images.unsplash.com/photo-1493932484895-752d1471eab5?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&auto=format&fit=crop&q=60"
       ]
     },
     {
@@ -211,9 +211,9 @@
       "year_completed": 2024,
       "featured": false,
       "images": [
-        "/images/projects/hobart-1.jpg",
-        "/images/projects/hobart-2.jpg",
-        "/images/projects/hobart-3.jpg"
+        "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&auto=format&fit=crop&q=60"
       ]
     }
   ],

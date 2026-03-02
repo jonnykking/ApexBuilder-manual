@@ -87,8 +87,12 @@ function FeaturedProjects({ projects }: { projects: Project[] }) {
           {projects.map((project, index) => (
             <div key={project.id} className="grid lg:grid-cols-2 gap-12 items-center">
               <div className={index % 2 === 1 ? "lg:order-2" : ""}>
-                <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl flex items-center justify-center relative shadow-xl">
-                  <Home className="w-32 h-32 text-primary-400" />
+                <div className="aspect-[4/3] rounded-2xl overflow-hidden relative shadow-xl">
+                  <img
+                  src={project.images[0] || "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&auto=format&fit=crop&q=60"}
+                  alt={project.name}
+                  className="w-full h-full object-cover"
+                />
                   <div className="absolute top-4 right-4 bg-secondary-500 text-white px-4 py-2 rounded-lg font-semibold">
                     {project.type}
                   </div>

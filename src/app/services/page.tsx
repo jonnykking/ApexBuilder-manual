@@ -137,7 +137,7 @@ function ServicesGrid() {
       icon: TreePalm,
       title: "Sustainable Building",
       description: "Eco-friendly construction methods and materials for environmentally conscious homeowners.",
-      image: "https://images.unsplash.com/photo-1510798831973-7d6b8f64d38d?w=800&auto=format&fit=crop&q=60",
+      image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800&auto=format&fit=crop&q=60",
       features: [
         "Solar integration",
         "Rainwater systems",
@@ -209,8 +209,8 @@ function ServicesGrid() {
               </div>
 
               <div className={index % 2 === 1 ? "lg:order-1" : ""}>
-                <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl flex items-center justify-center shadow-xl">
-                  <service.icon className="w-32 h-32 text-primary-400" />
+                <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+                  <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>

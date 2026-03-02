@@ -141,13 +141,15 @@ export function InteractiveProjectGrid() {
                 >
                   <div
                     className={cn(
-                      "bg-gradient-to-br from-primary-100 to-primary-200 relative",
+                      "relative overflow-hidden",
                       viewMode === "grid" ? "aspect-[4/3]" : "w-48 flex-shrink-0"
                     )}
                   >
-                    <div className="w-full h-full flex items-center justify-center text-primary-400">
-                      <Home className={cn(viewMode === "grid" ? "w-16 h-16" : "w-10 h-10")} />
-                    </div>
+                  <img
+                    src={project.images[0] || "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&auto=format&fit=crop&q=60"}
+                    alt={project.name}
+                    className="w-full h-full object-cover"
+                  />
                     <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-primary-700 px-3 py-1 rounded-full text-sm font-medium">
                       {project.type}
                     </div>
